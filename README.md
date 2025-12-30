@@ -79,12 +79,12 @@ Room_Expense_Manager/
 ├── config.txt # Persistent budget & month config                                        
 │                                                                                 
 └── archive/                                                                                  
-      └── month_backup.txt # Archived monthly records                                     
+                                                                                                      └── month_backup.txt # Archived monthly records                                     
   
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 1. Ensure **Python 3.x** is installed
 2. Navigate to the project directory
@@ -94,7 +94,7 @@ Room_Expense_Manager/
 4. Follow the on-screen menu options
 
 
-## 🧪 Sample Workflow
+##  Sample Workflow
 
 - Enter the **monthly budget** and **active month** when the application starts  
 - Add **daily expenses** with unique Expense IDs  
@@ -105,7 +105,7 @@ Room_Expense_Manager/
 
 ---
 
-## ⚠️ Design Decisions (Why This Approach)
+## Design Decisions (Why This Approach)
 
 - **Expenses as single source of truth** → prevents data inconsistency  
 - **Derived member contributions** → automatically updated on edits or deletions  
@@ -114,7 +114,7 @@ Room_Expense_Manager/
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Daily average spending suggestions  
 - Category-wise monthly expense reports  
@@ -124,7 +124,7 @@ Room_Expense_Manager/
 
 ---
 
-## 🎓 Academic & Internship Relevance
+## Academic & Internship Relevance
 
 - Demonstrates **applied software engineering principles**  
 - Strong alignment with **Data Structures and Python fundamentals**  
@@ -133,6 +133,6 @@ Room_Expense_Manager/
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project goes beyond a basic academic exercise by implementing **realistic financial workflows**, **persistent state management**, and **robust update handling**. It stands as a **solid, professional-grade console application** suitable for **college submission, internships, and portfolio presentation**.
