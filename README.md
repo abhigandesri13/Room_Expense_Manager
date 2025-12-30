@@ -77,10 +77,8 @@ Room_Expense_Manager/
 │                                                                         
 ├── expenses_data.txt # Stored expense records                                           
 ├── config.txt # Persistent budget & month config                                        
-│                                                                                 
-└── archive/                                                                                  
-                                                                                                      └── month_backup.txt # Archived monthly records                                     
-  
+├── archive/                                                             
+│ └── month_backup.txt # Archived monthly records                                            
 
 ---
 
