@@ -78,9 +78,9 @@ Room_Expense_Manager/
 ├── expenses_data.txt # Stored expense records                                           
 ├── config.txt # Persistent budget & month config                                        
 │                                                                                 
-├── archive/                                                                               
-│ └── month_backup.txt # Archived monthly records          
-
+└── archive/                                                                                  
+      └── month_backup.txt # Archived monthly records                                     
+  
 
 ---
 
@@ -93,54 +93,46 @@ Room_Expense_Manager/
    python main.py
 4. Follow the on-screen menu options
 
-🧪 Sample Workflow
 
-Enter monthly budget and active month
+## 🧪 Sample Workflow
 
-Add daily expenses
+- Enter the **monthly budget** and **active month** when the application starts  
+- Add **daily expenses** with unique Expense IDs  
+- Track **remaining balance** and **remaining days in the month**  
+- View **member-wise spending summary**  
+- **Update or delete** incorrect expense entries  
+- **Reset the month** and archive old data at month end  
 
-Track remaining balance and days
+---
 
-View member-wise spending summary
+## ⚠️ Design Decisions (Why This Approach)
 
-Update or delete incorrect entries
+- **Expenses as single source of truth** → prevents data inconsistency  
+- **Derived member contributions** → automatically updated on edits or deletions  
+- **File-based persistence** → lightweight, offline-friendly, and simple  
+- **Calendar-aware month handling** → accurate remaining-day calculation for all months  
 
-Reset month and archive old data
+---
 
-⚠️ Design Decisions (Why This Approach)
+## 🚀 Future Enhancements
 
-Expenses as single source of truth → prevents inconsistency
+- Daily average spending suggestions  
+- Category-wise monthly expense reports  
+- Who-owes-whom settlement calculation  
+- GUI or Web-based interface  
+- Database-backed persistence  
 
-Derived member contributions → auto-sync on updates
+---
 
-File-based persistence → lightweight & offline-friendly
+## 🎓 Academic & Internship Relevance
 
-Calendar-aware month handling → accurate remaining-day calculation
+- Demonstrates **applied software engineering principles**  
+- Strong alignment with **Data Structures and Python fundamentals**  
+- Easy to explain in **viva examinations and technical interviews**  
+- Focuses on **real-world problem solving** with clean architecture  
 
-🚀 Future Enhancements
+---
 
-Daily average spend suggestions
+## 📌 Conclusion
 
-Category-wise monthly reports
-
-Who-owes-whom settlement calculation
-
-GUI or Web-based interface
-
-Database-backed persistence
-
-🎓 Academic & Internship Relevance
-
-Demonstrates applied software engineering principles
-
-Strong alignment with Data Structures & Python fundamentals
-
-Easy to explain in viva and technical interviews
-
-Real-world problem solving with clean architecture
-
-📌 Conclusion
-
-This project goes beyond a basic academic exercise by implementing realistic financial workflows, persistent state management, and robust update handling, making it a solid, professional-grade console application suitable for both academic submission and portfolio presentation.
-
-
+This project goes beyond a basic academic exercise by implementing **realistic financial workflows**, **persistent state management**, and **robust update handling**. It stands as a **solid, professional-grade console application** suitable for **college submission, internships, and portfolio presentation**.
